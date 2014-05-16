@@ -43,8 +43,8 @@ public:
 	//Functions :
 	const string& afficher();
 	void addition(int);
-	void addition(const Fraction&);
-	void operator+(const Fraction&);
+	void addition(const Fraction& fract);
+	void operator+(const Fraction& fract);
 
 	//Destructor :
 	virtual ~Fraction();

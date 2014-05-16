@@ -15,7 +15,7 @@ TEST(striTest, Fraction){
 
 }
 
-TEST(AdditionTest, Integer){
+/*TEST(AdditionTest, Integer){
 
 	Fraction A(3,2);
 
@@ -35,4 +35,4 @@ TEST(AdditionTest, Fraction){
 	result = A.afficher();
 	EXPECT_EQ(result,aText);
 
-}
+}*/

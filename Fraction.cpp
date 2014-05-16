@@ -29,11 +29,14 @@ const string& Fraction::afficher(){
 }
 
 void Fraction::addition(int add){
+	int div = add * denominateur;
+	numerateur += div;
 
 }
 
-void Fraction::addition(const Fraction&){
-
+void Fraction::addition(const Fraction& fract){
+	numerateur += fract.GetNumerateur();
+	denominateur += fract.GetDenominateur();
 
 }
 
